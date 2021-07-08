@@ -1,0 +1,34 @@
+label#thumbnail {
+    margin-bottom: 20px;
+    border: 1px dashed #bbb;
+    background-size: cover;
+    cursor: pointer;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label#thumbnail input {
+    display: none;
+}
+
+label#thumbnail.has-thumbnail {
+    border: 0;
+}
+
+label#thumbnail.has-thumbnail img {
+    display: none;
+}
+
+main form .btn {
+    margin-left: 5%;
+}
+
+.pichandler-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0 auto;
+    width:100%;
+}

@@ -1,0 +1,71 @@
+#app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;   /*ambos elementos alinhados no topo*/
+}
+
+#app main {
+  margin-left: 20px;
+}
+
+#app li {
+  border: 1px solid #c4aaf0;
+  border-radius: 3px;
+  padding: 15px;
+}
+
+#app main .corona {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 20px;
+  background-color: #E5E6F0;
+}
+
+
+
+iframe {
+  height: 100px;
+  width: 200px; 
+  border-radius: 5%;
+  margin: 5% 10%  10%;
+}
+
+#app main button {
+  margin-left: 5%;
+  width: 35%;
+}
+
+#app main button.btn-del-gal {
+  margin-left: 5%;
+  width: 50%;
+}
+
+.pichandler-btns {
+  display: flex; 
+  width:100%;
+}
+
+#mapDevs {
+  margin: 0%;
+}
+
+.img-upload {
+  margin: 0 auto;  
+}
+
+@media (max-width: 1000px) {
+  #app {
+    flex-direction: column;
+  }
+  #app main {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  #app aside {
+    width: 100%;
+  }
+}
